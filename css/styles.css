@@ -1,0 +1,199 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+  display: block;
+
+  
+}
+
+nav .navbar .navbar-default {background-color: darkblue;}
+
+
+
+/**logo**/
+#logo-img {
+  background: url("Terrence and Philip fart.jpg") no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+/**site nate**/
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;}
+
+.navbar-brand h1:hover {color: grey;}
+
+div .navbar-brand {  
+  margin-top: 40px;
+  vertical-align: middle;
+  padding-left: 40px;
+  clear: right;
+
+}
+
+.navbar-brand h1 { /* Site name*/
+  font-family: 'Oxygen', serif;
+  color: #FEC100;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: normal;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  justify-content: left;
+  z-index: 99999999;
+ 
+}
+.navbar-brand h1 {
+  vertical-align: middle;
+}
+
+/**subtext**/
+
+.navbar-brand p { 
+  color: #FEC100;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 0;
+  padding-left:55px;
+  padding-top: 5px;
+}
+
+/*nav button menu*/
+
+#nav-list {
+          margin-top: 10px;
+}
+#nav-list a {
+            color: #FEC100;
+            text-align: center ;
+            }
+#nav-list a:hover {
+                  color: grey; 
+}
+
+#nav-list a span {
+                  font-size: 1.5em;
+}
+
+#phone {
+          margin-top: 5px;
+}
+#phone a {text-align: right;
+          padding-bottom: 0;
+          }
+#phone div {
+            color: yellow;
+            text-align: right;
+            padding-right: 15px;
+}
+
+                                 
+
+
+
+/**Tablets and Phones**/
+
+div#call-btn.visible-xs {text-align: center;
+                        padding-top: 30px;}
+div#call-btn.visible-xs a {
+                        color: orange;
+                        font-size: 130%;
+                        }
+div#call-btn.visible-xs a:hover{color: grey;}                        
+
+.navbar-toggle.collapsed {
+                          margin-top: 30px;
+                          margin-right: 40px;
+                          }
+
+@media (max-width: 767px) { div.navbar-brand{ clear: right;}}
+
+@media (max-width: 767px) { div.navbar-brand h1{font-size: 320%;}}
+
+@media (max-width: 767px) { div.navbar-brand p{font-size: 50%;}}
+
+@media (max-width: 767px) {nav .navbar .navbar-default {margin-bottom: 600px}}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+                                              border: 1px solid orange;
+                                              box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+ /**large screens**/                                           }
+
+@media (min-width: 1200px){
+  .jumbotron {
+              background: url('../images/bellas-artes1024x682.jpg') no-repeat;
+              height: 675px;
+              width: 1024px;
+              margin: 0px 0px 0px;
+  }
+  .container div.jumbotron {
+                            margin: 0px 0px 0px;
+                            padding: 0px 0px;
+                            margin-top: 20px;
+  }
+  
+  div#main-content.container {width: 1054px;}
+}
+
+
+/*medium devices*/
+@media (min-width: 768px) and (max-width: 1199px) {
+   .jumbotron {
+              background: url('../images/tree768.jpeg') no-repeat;
+              height: 512px;
+              width: 678px;
+              margin: 0px 0px 0px:;
+              }
+
+              .container div.jumbotron {
+                            margin: 0px 0px 0px;
+                            padding: 0px 0px;
+                            margin-top: 40px;
+    }
+    
+    div#main-content.container {width: 708px;}
+
+  #nav-list a span {
+                  font-size: 1em;}
+}
+
+
+
+
+/**Small screens**/
+@media (max-width: 767px){
+                .jumbotron img {
+                                height: 300px;
+                                width: 375px;
+                                margin-right: 0px;}
+                
+                .container div.jumbotron {
+                                          margin: 0px 0px 0px;
+                                          padding: 0px 0px;
+                                          width: 375px;
+                                          text-align: center;}
+                div#main-content.container {width: 405px;}
+
+
+}
+
+
+
+
+
+
+
+
+
